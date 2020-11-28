@@ -4,15 +4,14 @@
   "description": "JavaScript game tests",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "babel-plugin-transform-runtime": "^6.23.0",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.12.3"
+    "parcel": "latest",
+    "prettier": "^2.2.1"
   }
 }
